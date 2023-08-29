@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite for herocuapp]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="functional testing(failed)">
+    <classes>
+      <class name="com.herokuapp.test.Test_EnteryExit">
+        <methods>
+          <include name="Exit"/>
+          <include name="teardown"/>
+          <include name="chrome"/>
+          <include name="openReport"/>
+        </methods>
+      </class> <!-- com.herokuapp.test.Test_EnteryExit -->
+      <class name="com.herokuapp.test.Test_Frames">
+        <methods>
+          <include name="teardown"/>
+          <include name="Frames"/>
+          <include name="chrome"/>
+          <include name="iFrame"/>
+          <include name="openReport"/>
+        </methods>
+      </class> <!-- com.herokuapp.test.Test_Frames -->
+      <class name="com.herokuapp.test.Test_Nested_Frames">
+        <methods>
+          <include name="Nested_Frames"/>
+          <include name="teardown"/>
+          <include name="chrome"/>
+          <include name="openReport"/>
+        </methods>
+      </class> <!-- com.herokuapp.test.Test_Nested_Frames -->
+    </classes>
+  </test> <!-- functional testing(failed) -->
+</suite> <!-- Failed suite [Test Suite for herocuapp] -->
